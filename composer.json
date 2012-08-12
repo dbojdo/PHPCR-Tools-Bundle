@@ -10,7 +10,7 @@
 			"name": "Web-IT",
 			"homepage": "http://www.web-it.eu"
 		}
-	]
+	],
 	"require": {
 		"php": ">=5.3.2",
 		"doctrine/phpcr-odm": "1.0.*"
