@@ -1,5 +1,5 @@
 <?php
-namespace Webit\PHPCRTools\Filter;
+namespace Webit\Bundle\PHPCRToolsBundle\Filter;
 
 class NodenameFilter {
 	/**

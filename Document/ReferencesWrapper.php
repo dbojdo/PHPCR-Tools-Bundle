@@ -1,5 +1,5 @@
 <?php
-namespace Webit\PHPCRTools\Document;
+namespace Webit\Bundle\PHPCRToolsBundle\Document;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ODM\PHPCR\Mapping\Annotations as PHPCRODM;
