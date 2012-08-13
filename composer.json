@@ -1,6 +1,6 @@
 {
-	"name" : "webit/phpcr-tools",
-	"type": "library",
+	"name" : "webit/phpcr-tools-bundle",
+	"type": "symfony-bundle",
 	"description": "Web-IT PHPCR Tools",
 	"keywords": ["web-it","phpcr"],
 	"homepage": "http://www.web-it.eu",
@@ -16,7 +16,8 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Webit\\PHPCRTools" : "lib/"
+			"Webit\\Bundle\PHPCRToolsBundle" : ""
 		}
-	}
+	},
+	"target-dir" : "Webit/Bundle/PHPCRToolsBundle"
 }
