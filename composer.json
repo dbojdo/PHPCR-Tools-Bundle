@@ -16,7 +16,7 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Webit\\Bundle\PHPCRToolsBundle" : ""
+			"Webit\\Bundle\\PHPCRToolsBundle" : ""
 		}
 	},
 	"target-dir" : "Webit/Bundle/PHPCRToolsBundle"
