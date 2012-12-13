@@ -1,6 +1,8 @@
 <?php
 namespace Webit\Bundle\PHPCRToolsBundle\Document;
 
+use Doctrine\ODM\PHPCR\ReferrersCollection;
+
 use Doctrine\ORM\Id\UuidGenerator;
 
 use Webit\Tools\Text\Slugifier;
@@ -17,8 +19,7 @@ class ReferenceableGeneric extends Generic {
 	 * @PHPCRODM\Uuid
 	 */
 	protected $uuid;
-	
-	
+		
 	public function __construct() {
 		$this->uuid = UUIDHelper::generateUUID();
 	}
