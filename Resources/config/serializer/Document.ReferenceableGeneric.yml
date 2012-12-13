@@ -1,0 +1,6 @@
+Webit\Bundle\PHPCRToolsBundle\Document\ReferenceableGeneric:
+  properties:
+    uuid:
+      type: string
+      groups: [generic]
+      

@@ -1,0 +1,17 @@
+Doctrine\ODM\PHPCR\Document\Generic:
+  properties:
+    id:
+      type: string
+      groups: [generic]
+    nodename:
+      type: string
+      groups: [generic]
+    parent:
+      groups: [genericParent]
+    node:
+      exclude: true
+    children:
+      groups: [genericChildren]
+    referrers:
+      groups: [genericReferrers]
+      

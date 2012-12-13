@@ -1,0 +1,16 @@
+Symfony\Cmf\Bundle\RoutingExtraBundle\Document\Route:
+  properties:
+    name:
+      groups: [route]
+    path:
+      groups: [route]
+    idPrefix:
+      groups: [route]
+    parent:
+      exclude: true
+      groups: [routeParent]
+    children:
+      type: ArrayCollection<Symfony\Cmf\Bundle\RoutingExtraBundle\Document\Route>
+      groups: [routeChildren]
+    routeContent:
+      groups: [routeContent]

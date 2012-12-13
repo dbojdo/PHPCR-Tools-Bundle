@@ -1,0 +1,4 @@
+Doctrine\ODM\PHPCR\PersistentCollection:
+  properties:
+    dm:
+      exclude: true
