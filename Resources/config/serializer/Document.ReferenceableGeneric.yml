@@ -3,4 +3,3 @@ Webit\Bundle\PHPCRToolsBundle\Document\ReferenceableGeneric:
     uuid:
       type: string
       groups: [generic]
-      
