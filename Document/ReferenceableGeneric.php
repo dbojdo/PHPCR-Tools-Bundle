@@ -2,9 +2,6 @@
 namespace Webit\Bundle\PHPCRToolsBundle\Document;
 
 use Doctrine\ODM\PHPCR\ReferrersCollection;
-
-use Doctrine\ORM\Id\UuidGenerator;
-
 use Webit\Tools\Text\Slugifier;
 use PHPCR\Util\UUIDHelper;
 use Doctrine\ODM\PHPCR\Mapping\Annotations as PHPCRODM;

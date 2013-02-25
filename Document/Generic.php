@@ -1,5 +1,6 @@
 <?php
 namespace Webit\Bundle\PHPCRToolsBundle\Document;
+
 use Webit\Tools\Text\Slugifier;
 use PHPCR\Util\UUIDHelper;
 use Doctrine\ODM\PHPCR\Mapping\Annotations as PHPCRODM;
