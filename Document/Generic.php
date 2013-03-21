@@ -1,6 +1,7 @@
 <?php
 namespace Webit\Bundle\PHPCRToolsBundle\Document;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Webit\Tools\Text\Slugifier;
 use PHPCR\Util\UUIDHelper;
 use Doctrine\ODM\PHPCR\Mapping\Annotations as PHPCRODM;
@@ -47,6 +48,14 @@ class Generic extends BaseGeneric {
 		}
 
 		parent::setNodename($name);
+	}
+	
+	public function getChildren() {
+		if($this->children == null) {
+			$this->children = new ArrayCollection();
+		}
+		
+		return $this->children;
 	}
 }
 ?>
