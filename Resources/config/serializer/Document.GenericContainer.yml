@@ -1,0 +1,19 @@
+Webit\Bundle\PHPCRToolsBundle\Document\GenericContainer:
+  properties:
+    id:
+      type: string
+      groups: [generic]
+    nodename:
+      type: string
+      groups: [generic]
+    parent:
+      groups: [genericParent]
+    children:
+      groups: [genericChildren]
+    parentId:
+      type: string
+      groups: [generic]
+      serialized_name: parentId
+  callback_methods:
+    pre_serialize: [getParentId]
+      
