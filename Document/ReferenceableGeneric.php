@@ -16,10 +16,6 @@ class ReferenceableGeneric extends Generic {
 	 * @PHPCRODM\Uuid
 	 */
 	protected $uuid;
-		
-	public function __construct() {
-		$this->uuid = UUIDHelper::generateUUID();
-	}
 	
 	public function getUuid() {
 		return $this->uuid;
