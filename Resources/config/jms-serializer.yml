@@ -1,0 +1,8 @@
+parameters:
+    webit_phpcr_tools.jms_serializer.phpcr_collection_handler.class: Webit\Bundle\PHPCRToolsBundle\JMSSerializer\CollectionHandler
+
+services:
+    webit_phpcr_tools.jms_serializer.phpcr_collection_handler:
+        class: %webit_phpcr_tools.jms_serializer.phpcr_collection_handler.class%
+        tags:
+            - { name: jms_serializer.subscribing_handler }

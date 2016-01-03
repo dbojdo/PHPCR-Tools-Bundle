@@ -22,14 +22,12 @@ class WebitPHPCRToolsExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        //$loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
-        //$loader->load('services.yml');
+        $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
+        $loader->load('jms-serializer.yml');
         
         $alias = $this->getAlias();
         foreach ($config as $key => $value) {
-        	$container->setParameter('webit_phpcr.' . $key, $value);
+            $container->setParameter('webit_phpcr.' . $key, $value);
         }
-
     }
 }
-?>
